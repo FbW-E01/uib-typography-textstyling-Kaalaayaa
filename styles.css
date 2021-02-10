@@ -1,14 +1,51 @@
 /* css reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 40px;
+  padding: 40px;
+  color: bisque, red;
+  font-family: monospace, Courier;
+}
+
+h1 h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h3 {
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 15px;
+  word-spacing: 5px;
 }
 
 blockquote {
-    margin: 0 0 0 30px;
+  margin: 0 0 0 30px;
+  font-style: italic;
+  line-height: 30px;
+  text-indent: 60px;
 }
 
+span {
+  text-decoration: line-through;
+}
+
+em {
+  text-transform: capitalize;
+}
+strong {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
